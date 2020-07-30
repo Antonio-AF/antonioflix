@@ -12,9 +12,9 @@ function Home() {
       <Menu />
 
       <BannerMain 
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-End? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores.Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoTitle= 'Inicio de Uma Jornada a Programação'//{dadosIniciais.categorias[0].videos[0].titulo}
+        url={dadosIniciais.categorias[0].videos[0].url}       
+        videoDescription={"Com o estudo de Python, pretendo me tornar um excelente Programador"}
       />
 
       <Carousel
