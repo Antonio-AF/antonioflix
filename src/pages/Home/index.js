@@ -12,7 +12,7 @@ function Home() {
       <Menu />
 
       <BannerMain 
-        videoTitle= 'Inicio de Uma Jornada a Programação'//{dadosIniciais.categorias[0].videos[0].titulo}
+        videoTitle= 'Início de Uma Jornada a Programação'//{dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}       
         videoDescription={""}
       />
